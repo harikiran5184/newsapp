@@ -49,7 +49,7 @@ const App=()=>{
         
         
         <Switch>
-          <Route exact path="/"><News  setProgress={setProgress} apiKey={apiKey} key="general" pageSize={pageSize}country="in" category="general" mode={mode}/></Route>
+          <Route exact path="/home"><News  setProgress={setProgress} apiKey={apiKey} key="general" pageSize={pageSize}country="in" category="general" mode={mode}/></Route>
           <Route exact path="/general"><News  setProgress={setProgress} apiKey={apiKey} key="general" pageSize={pageSize} country="in" category="general" mode={mode}/></Route>
           <Route exact path="/business"><News setProgress={setProgress} apiKey={apiKey} key="business" pageSize={pageSize} country="in" category="business" mode={mode}/></Route>
           <Route exact path="/entertainment"><News setProgress={setProgress} apiKey={apiKey} key="entertainment" pageSize={pageSize} country="in" category="entertainment" mode={mode}/></Route>
